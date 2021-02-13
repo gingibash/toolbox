@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t eyevinntechnology/ffmpeg-base:0.2.2 -f Dockerfile.ffmpeg .
+docker build -t idealivery/ffmpeg-base:0.0.1 -f Dockerfile.ffmpeg .
