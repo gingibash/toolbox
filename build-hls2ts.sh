@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --no-cache -t eyevinntechnology/toolbox-hls2ts:0.1.3 -f Dockerfile.hls2ts .
+docker build --no-cache -t idealivery/toolbox-hls2ts:0.0.1 -f Dockerfile.hls2ts .

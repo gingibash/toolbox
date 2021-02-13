@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t eyevinntechnology/bento4-base:0.1.0 -f Dockerfile.bento4 .
+docker build -t idealivery/bento4-base:0.0.1 -f Dockerfile.bento4 .

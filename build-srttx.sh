@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t eyevinntechnology/toolbox-srttx:0.2.4 -f Dockerfile.srttx .
+docker build -t idealivery/toolbox-srttx:0.0.1 -f Dockerfile.srttx .

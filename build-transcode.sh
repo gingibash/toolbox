@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t eyevinntechnology/toolbox-transcode:0.1.0 -f Dockerfile.transcode .
+docker build -t idealivery/toolbox-transcode:0.0.1 -f Dockerfile.transcode .

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --no-cache -t eyevinntechnology/toolbox-rtmprx:0.1.0 -f Dockerfile.rtmprx .
+docker build --no-cache -t idealivery/toolbox-rtmprx:0.0.1 -f Dockerfile.rtmprx .

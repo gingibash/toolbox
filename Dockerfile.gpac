@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Eyevinn Technology <info@eyevinn.se>
+MAINTAINER BGz <bgz@idealivery.com>
 RUN apt-get update
 RUN apt-get install -y --force-yes subversion make pkg-config \
   g++ zlib1g-dev libfreetype6-dev libjpeg62-dev libpng12-dev \

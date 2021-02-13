@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t eyevinntechnology/gst-base:0.1.0 -f Dockerfile.gst .
+docker build -t idealivery/gst-base:0.0.1 -f Dockerfile.gst .

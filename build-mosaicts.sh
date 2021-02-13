@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --no-cache -t eyevinntechnology/toolbox-mosaicts:0.1.0 -f Dockerfile.mosaicts .
+docker build --no-cache -t idealivery/toolbox-mosaicts:0.0.1 -f Dockerfile.mosaicts .
