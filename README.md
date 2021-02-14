@@ -2,19 +2,19 @@
 
 The Eyevinn Toolbox is a set of Docker containers with tools that may come in handy. They are all free to use and if you have any suggestions feel free to create a ticket.
 
-| Tool      | Description | Container |
-| ----      | ----------- | --------- |
-| Loop TS   | Generate MPEG-TS stream over multicast or SRT by looping an MP4 file | eyevinntechnology/toolbox-loopts |
-| SRT Tx    | Transport stream over SRT | eyevinntechnology/toolbox-srttx |
-| SRT Rx    | Receive stream over SRT | eyevinntechnology/toolbox-srtrx |
-| RTMP Rx   | Receive RTMP and stream over multicast | eyevinntechnology/toolbox-rtmprx |
-| Mosaic TS | Render a 2x2 or 3x3 mosaic in MPEG-TS from 4 or 9 HLS sources | eyevinntechnology/toolbox-mosaicts |
-| HLS 2 TS  | Pull a live HLS stream and output to multicast TS | eyevinntechnology/toolbox-hls2ts |
-| HLS 2 RTMP | Pull a live HLS stream and re-stream to multiple RTMP destinations. | eyevinntechnology/toolbox-hls2rtmp |
-| HLS 2 SRT | Pull a live HLS stream and transmit over SRT | eyevinntechnology/toolbox-hls2srt |
-| SRT 2 RTMP | Receive an SRT stream and re-stream to multiple RTMP destinations. | eyevinntechnology/toolbox-srt2rtmp |
-| RTMP 2 SRT | Receive an RTMP stream and transmit over SRT. | eyevinntechnology/toolbox-rtmp2srt |
-| VOD Transcode | Quickly transcode video file to a set of different bitrates | eyevinntechnology/toolbox-transcode |
+| Tool      | Description |
+| ----      | ----------- |
+| Loop TS   | Generate MPEG-TS stream over multicast or SRT by looping an MP4 file |
+| SRT Tx    | Transport stream over SRT |
+| SRT Rx    | Receive stream over SRT |
+| RTMP Rx   | Receive RTMP and stream over multicast |
+| Mosaic TS | Render a 2x2 or 3x3 mosaic in MPEG-TS from 4 or 9 HLS sources |
+| HLS 2 TS  | Pull a live HLS stream and output to multicast TS |
+| HLS 2 RTMP | Pull a live HLS stream and re-stream to multiple RTMP destinations. |
+| HLS 2 SRT | Pull a live HLS stream and transmit over SRT |
+| SRT 2 RTMP | Receive an SRT stream and re-stream to multiple RTMP destinations. |
+| RTMP 2 SRT | Receive an RTMP stream and transmit over SRT. |
+| VOD Transcode | Quickly transcode video file to a set of different bitrates |
 
 ## Loop input file and output MPEG-TS multicast
 
