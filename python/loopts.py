@@ -92,7 +92,7 @@ if args.useflv:
 
 # ffmpeg -stream_loop -1 -i IN.mp4 -map 0:v -vcodec copy -bsf:v h264_mp4toannexb -f h264 - | ffmpeg -fflags +genpts -r 23.98 -re -i - -f lavfi -i anullsrc=r=48000:cl=stereo -c:a aac -shortest -vcodec libx264 -preset veryfast -pix_fmt yuv420p -strict -2 -y -f mpegts 'udp://239.0.0.1:1234'
 ffmpeg1 = "ffmpeg -stream_loop -1 -i %s/%s %s -bsf:v h264_mp4toannexb -f h264 -" % (workdir, args.inputfile, audiocopy)
-ffmpeg2 = "ffmpeg -thread_queue_size 512 -threads 4 -framerate %s -fflags +genpts -r %s -re -i - %s %s -c:a aac -shortest %s -strict -2 -y -f %s -r %s %s %s" % (framerate, framerate, audiostr, mapstr, outputencoding, outputformat, framerate, streamidstr, args.multicast)
+ffmpeg2 = "ffmpeg -thread_queue_size 8192 -threads 4 -framerate %s -fflags +genpts -r %s -re -i - %s %s -c:a aac -shortest %s -strict -2 -y -f %s -r %s %s %s" % (framerate, framerate, audiostr, mapstr, outputencoding, outputformat, framerate, streamidstr, args.multicast)
 
 if args.debug:
   print "%s | %s" % (ffmpeg1, ffmpeg2)
